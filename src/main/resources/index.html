@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventFlow | Event Management</title>
+</head>
+<body>
+
+<!-- Header & Navigation -->
+<header>
+    <nav>
+        <a href="#home">EventFlow</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#events">Upcoming Events</a></li>
+            <li><a href="#register">Book / Register</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Hero Banner -->
+    <section id="home">
+        <h1>Seamless Event Planning &amp; Management</h1>
+        <p>From corporate conferences to unforgettable weddings, we handle every detail so you can enjoy the moment.</p>
+        <a href="#register">Plan Your Event</a>
+    </section>
+
+    <hr>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <article>
+            <h3>Corporate Conferences</h3>
+            <p>End-to-end logistics, speaker coordination, and AV setup for business summits and workshops.</p>
+        </article>
+        <article>
+            <h3>Weddings &amp; Galas</h3>
+            <p>Custom venue styling, catering management, and timeline execution for milestone celebrations.</p>
+        </article>
+        <article>
+            <h3>Concerts &amp; Festivals</h3>
+            <p>Ticketing systems, crowd flow planning, and stage production for large-scale public gatherings.</p>
+        </article>
+    </section>
+
+    <hr>
+
+    <!-- Upcoming Events Section -->
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <article>
+            <h3>Tech Innovators Summit 2026</h3>
+            <p><time datetime="2026-12-12">December 12, 2026</time> | Grand Convention Center</p>
+            <p>Join industry leaders for a full day of AI keynotes, startup pitches, and networking.</p>
+        </article>
+        <article>
+            <h3>Winter Charity Gala</h3>
+            <p><time datetime="2026-12-20">December 20, 2026</time> | Royal Ballroom</p>
+            <p>An evening of fine dining, live orchestral music, and fundraising for local education.</p>
+        </article>
+    </section>
+
+    <hr>
+
+    <!-- Registration / Inquiry Form -->
+    <section id="register">
+        <h2>Register or Request a Quote</h2>
+        <form action="#" method="POST">
+            <div>
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="event-date">Preferred Date:</label><br>
+                <input type="date" id="event-date" name="event-date">
+            </div>
+            <br>
+            <div>
+                <label for="event-type">Event Type or Ticket:</label><br>
+                <select id="event-type" name="event-type">
+                    <option value="corporate">Corporate Event Inquiry</option>
+                    <option value="wedding">Wedding / Private Party Inquiry</option>
+                    <option value="tech-summit">Attend: Tech Innovators Summit</option>
+                    <option value="charity-gala">Attend: Winter Charity Gala</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="details">Event Details / Notes:</label><br>
+                <textarea id="details" name="details" rows="4" cols="40"></textarea>
+            </div>
+            <br>
+            <button type="submit">Submit Request</button>
+        </form>
+    </section>
+</main>
+
+<hr>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 EventFlow Management. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
